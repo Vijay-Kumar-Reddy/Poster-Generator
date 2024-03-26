@@ -1,0 +1,109 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poster Generator</title>
+<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Teko:wght@600&display=swap" rel="stylesheet"> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&family=Quicksand:wght@300&family=Teko:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static 'home/styles/cse/template1/template1.css'%}">
+<style>
+    body {background: #243b55;}
+    .University{
+    position: absolute;
+    width: 762px;
+    height: 141px;
+    left: 14px;
+    top: 10px;
+
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 39px;
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration:overline;
+    color: #154047;
+    text-transform: uppercase;
+  }
+</style>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<script type="text/javascript">
+
+    function downloadimage() {
+        //var container = document.getElementById("image-wrap"); //specific element on page
+        var container = document.getElementById("poster");; // full page
+        html2canvas(container, { allowTaint: true }).then(function (canvas) {
+
+            var link = document.createElement("a");
+            document.body.appendChild(link);
+            link.download = "poster.png";
+            link.href = canvas.toDataURL();
+            link.target = '_blank';
+            link.click();
+        });
+    }
+
+</script>
+</head>
+<body>
+<div id="content-container" >
+    <div class=e3_3 id="poster">
+    <div  class="e3_2">
+        <img src="{% static 'home/images/cse/template1/template1_b.png'%}" alt="background" id="background">
+    </div>
+    {% if key == "clg" %}
+      <img src="{% static 'home/images/logo.svg'%}" alt="logo" id="logo">
+    {% else %}
+      <h1 class="University">{{U_name}}</h1>
+    {% endif %}
+
+    <span  class="e3_371" >{{O_by}}</span>
+    <span  class="e3_372">PRESENTS</span>
+    <span  class="e3_373">{{E_name}}</span>
+    <span  class="e3_374">Time : </span>
+    <span  class="e3_376">{{Time}}</span>
+    <span  class="e3_377">Date : </span>
+    <span  class="e3_378">{{Date}}</span>
+    <span  class="e3_379">VENUE</span>
+    <span  class="e3_380">{{Venue}}</span>
+    <span  class="e3_381">STUDENT CO-ORDINATES</span>
+    <span  class="e3_382">{{Student}}</span>
+    <span  class="e3_383">FACULTY CO-ORDINATES</span>
+    <span  class="e3_384">{{Faculty}}</span>
+    <span  class="e3_385">REGISTER NOW :</span>
+    <span  class="e3_387">LINK : </span>
+    <span  class="e3_388">{{Link}}</span>
+    <div class="qr">
+        <!-- <a href="data:image/png;base64,{{ image }}" download> -->
+          <a href="{{Link}}" target="_blank">
+            <img src="data:image/png;base64,{{ image }}" style="width:120px ;height:120px;" alt="Qrcode">
+            <!-- <button class="btn"><i class="fa fa-download"></i> Download</button> -->
+        </a>
+    </div>
+    </div>
+</div>
+
+<div class="png">
+  <button onclick="downloadimage()" id="png_button">Download PNG</button>
+  <button onclick="window.print()" id="pdf_button">Download PDF</button>
+</div>
+
+</div>
+</body>
+</html>

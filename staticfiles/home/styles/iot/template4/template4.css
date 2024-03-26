@@ -1,0 +1,402 @@
+#content-container{
+    pointer-events: none;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+  
+    position: absolute;
+    width: 751px;
+    height: 165px;
+    left: 22px;
+    top: 0px;
+    
+    
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+    position: absolute;
+    width: 748px;
+    height: 151px;
+    left: 20px;
+    top: 33px;
+    
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #1EA3DC;
+}
+.O_by { 
+  
+    position: absolute;
+    width: 508px;
+    height: 34px;
+    left: 254px;
+    top: 197px;
+    
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+
+}
+.presents { 
+
+
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    left: 373px;
+    top: 231px;
+    
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+.event_name { 
+
+
+    position: absolute;
+width: 716px;
+height: 218px;
+left: 33px;
+top: 278px;
+
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 63px;
+text-transform: uppercase;
+
+color: #DA8F1A;
+
+    
+    
+}
+
+
+.time_h { 
+    position: absolute;
+    width: 82px;
+    height: 42px;
+    left: 312px;
+    top: 865px;
+    
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    
+    color: #000000;
+    
+	
+}
+
+.time { 
+
+    position: absolute;
+    width: 378px;
+    height: 31px;
+    left: 411px;
+    top: 873px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.date_h { 
+    position: absolute;
+    width: 76px;
+    height: 56px;
+    left: 41px;
+    top: 798px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #045174;
+}
+.date { 
+    position: absolute;
+    width: 494px;
+    height: 54px;
+    left: 312px;
+    top: 772px;
+    
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+    
+}
+.venue_h { 
+    position: absolute;
+    width: 88px;
+    height: 38px;
+    left: 77px;
+    top: 929px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    
+	
+}
+.venue { 
+    position: absolute;
+    width: 629px;
+    height: 53px;
+    left: 144px;
+    top: 826px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+}
+.rectangle{
+    position: absolute;
+    width: 187px;
+    height: 44px;
+    left: 35px;
+    top: 878.5px;
+
+    background: #142A54;
+}
+
+.st_h{
+    position: absolute;
+    width: 213px;
+    height: 21px;
+    left: 576px;
+    top: 588px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #DEEF79;
+    
+
+    
+}
+
+.st_c{
+    position: absolute;
+    width: 191px;
+    height: 59px;
+    left: 603px;
+    top: 623px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #E87A00;
+    
+    
+}
+
+.fac_h{
+    position: absolute;
+    width: 232px;
+    height: 20px;
+    left: 562px;
+    top: 679px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #DEEF79;
+    
+}
+
+.fac_c{
+    position: absolute;
+width: 178px;
+height: 146px;
+left: 603px;
+top: 725px;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #E87A00;
+
+}
+
+.register { 
+
+    position: absolute;
+    width: 260px;
+    height: 28px;
+    left: 312px;
+    top: 989px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+	
+}
+
+
+.qr{
+    
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 25px;
+    top: 940px;
+    
+    background: #D9D9D9;
+}
+.link{
+    position: absolute;
+    width: 756px;
+    height: 41px;
+    left: 17px;
+    top: 1057px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    
+    
+}
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

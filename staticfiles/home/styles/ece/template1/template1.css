@@ -1,0 +1,247 @@
+#content-container{
+    pointer-events: none;
+}
+
+.qr{
+    pointer-events: all;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+    position: absolute;
+    width: 719px;
+    height: 167px;
+    left: 38px;
+    top: 16px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+    position: absolute;
+    width: 749px;
+    height: 178px;
+    left: 22px;
+    top: 20px;
+
+    font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 39px;
+	text-align: center;
+	line-height: 55px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 10px whitesmoke ;
+}
+.O_by { 
+    position: absolute;
+    width: 391px;
+    height: 50px;
+    left: 201px;
+    top: 221px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #060B34;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+
+}
+.event_name { 
+    position: absolute;
+    width: 747px;
+    height: 188px;
+    left: 23px;
+    top: 310px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #233DFF;
+    text-shadow: 5px 5px 100px #233DFF;    
+}
+
+.time { 
+    position: absolute;
+    width: 289px;
+    height: 41px;
+    left: 252px;
+    top: 1063px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 100px;
+    border:hidden;
+    background-color: #0E55C9;
+    color: #F4F6FC;
+    
+}
+
+.date { 
+    position: absolute;
+    width: 329px;
+    height: 46px;
+    left: 40px;
+    top: 662px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #F4F6FC;
+    
+}
+.venue_h { 
+    position: absolute;
+    width: 112px;
+    height: 24px;
+    left: 623px;
+    top: 905px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #F4F6FC;
+	
+}
+.venue { 
+    position: absolute;
+    width: 362px;
+    height: 74px;
+    left: 374px;
+    top: 950px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #F4F6FC;
+}
+
+.register { 
+    position: absolute;
+    width: 229px;
+    height: 44px;
+    left: 12px;
+    top: 925px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #F4F6FC;
+	
+}
+
+.qr{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 58px;
+    top: 992px;
+}
+
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}

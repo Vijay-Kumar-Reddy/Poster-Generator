@@ -1,0 +1,267 @@
+#content-container{
+    pointer-events: none;
+}
+
+.qr{
+    pointer-events: all;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+    position: absolute;
+    width: 722px;
+    height: 154px;
+    left: 36px;
+    top: 9px;
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+.University{
+    position: absolute;
+    width: 727px;
+    height: 155px;
+    left: 29px;
+    top: 10px;
+    
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    line-height: 80px;
+    text-transform: uppercase;
+    color:#03e9f4;
+    text-shadow: 2px 2px 10px #03e9f4; 
+}
+.O_by { 
+    position: absolute;
+    width: 765px;
+    height: 70px;
+    left: 14px;
+    top: 200px;
+    
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #7DEEFF;
+
+}
+.presents{
+    position: absolute;
+    width: 137px;
+    height: 18px;
+    left: 327px;
+    top: 295px;
+    
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #7DEEFF;
+}
+
+.event_name { 
+    position: absolute;
+    width: 765px;
+    height: 148px;
+    left: 12px;
+    top: 383px;
+    
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 82px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #7DEEFF;  
+    text-shadow: 2px 2px 10px #03e9f4;
+    
+}
+
+.time { 
+    position: absolute;
+    width: 227px;
+    height: 22px;
+    left: 38px;
+    top: 664px;
+    
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #E8FCFF;
+    
+}
+
+
+.date { 
+    position: absolute;
+    width: 413px;
+    height: 57px;
+    left: 190px;
+    top: 778px;
+    
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E8FCFF;
+    text-shadow: 2px 2px 10px #E8FCFF;
+}
+.venue_h { 
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 640px;
+    top: 863px;
+    
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 3px;
+    color: #E8FCFF;
+	
+}
+.venue { 
+    position: absolute;
+    position: absolute;
+    width: 283px;
+    height: 58px;
+    left: 454px;
+    top: 908px;
+    
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #2D4060;
+}
+
+
+
+.register { 
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 14px;
+    top: 925px;
+    
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #018BAB;   
+	
+}
+
+
+.qr{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 45px;
+    top: 995px;
+}
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

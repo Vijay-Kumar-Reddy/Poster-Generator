@@ -1,0 +1,384 @@
+#content-container{
+    pointer-events: none;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+  
+    position: absolute;
+    width: 759px;
+    height: 160px;
+    left: 18px;
+    top: 0px;
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+    position: absolute;
+    width: 748px;
+    height: 151px;
+    left: 20px;
+    top: 33px;
+    
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+     text-transform: uppercase;
+    
+    color: #1EA3DC;
+}
+.O_by { 
+    position: absolute;
+    width: 474px;
+    height: 37px;
+    left: 26px;
+    top: 194px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+     text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+.presents { 
+
+
+    position: absolute;
+    width: 122px;
+    height: 34px;
+    left: 26px;
+    top: 231px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+.event_name { 
+    position: absolute;
+    width: 525px;
+    height: 264px;
+    left: 14px;
+    top: 278px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 82px;
+     text-transform: uppercase;
+    
+    color: #FFBD59;
+    
+}
+
+
+.time_h { 
+    position: absolute;
+    width: 70px;
+    height: 36px;
+    left: 17px;
+    top: 562px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFBD59;
+	
+}
+
+.time { 
+
+    position: absolute;
+    width: 496px;
+    height: 33px;
+    left: 123px;
+    top: 556px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+     text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+
+.date_h { 
+    position: absolute;
+    width: 90px;
+    height: 38px;
+    left: 17px;
+    top: 603px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFBD59;
+}
+.date { 
+    position: absolute;
+    width: 480px;
+    height: 39px;
+    left: 123px;
+    top: 598px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+     text-transform: capitalize;
+    
+    color: #FFFFFF;
+    
+}
+.venue_h { 
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 15px;
+    top: 641px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFBD59;
+	
+}
+.venue { 
+    position: absolute;
+    width: 753px;
+    height: 53px;
+    left: 16px;
+    top: 671px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.rectangle{
+    position: absolute;
+    width: 187px;
+    height: 44px;
+    left: 35px;
+    top: 878.5px;
+
+    background: #142A54;
+}
+
+.st_h{
+    position: absolute;
+    width: 322px;
+    height: 33px;
+    left: 472px;
+    top: 774px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFBD59;
+    
+
+    
+}
+
+.st_c{
+    position: absolute;
+    width: 318px;
+    height: 74px;
+    left: 472px;
+    top: 796px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.fac_h{
+    position: absolute;
+    width: 319px;
+    height: 32px;
+    left: 472px;
+    top: 878px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFBD59;
+    
+}
+
+.fac_c{
+    position: absolute;
+    width: 319px;
+    height: 83px;
+    left: 471px;
+    top: 910px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+
+}
+
+.register { 
+    position: absolute;
+width: 393px;
+height: 30px;
+left: 18px;
+top: 1042px;
+
+font-family: 'Gabriela';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+color: #FFFFFF;
+    
+	
+}
+
+
+.qr{
+    
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 684px;
+    top: 1012px;
+    
+    background: #D9D9D9;
+}
+.link{
+    position: absolute;
+    width: 657px;
+    height: 34px;
+    left: 18px;
+    top: 1075px;
+    
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+    
+}
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

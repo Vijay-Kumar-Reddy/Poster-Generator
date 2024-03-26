@@ -1,0 +1,383 @@
+#content-container{
+    pointer-events: none;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+
+    position: absolute;
+    width: 720px;
+    height: 152px;
+    left: 22px;
+    top: 0px;
+    
+    
+    
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+    position: absolute;
+    width: 748px;
+    height: 151px;
+    left: 20px;
+    top: 33px;
+    
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #1EA3DC;
+}
+.O_by { 
+
+    position: absolute;
+    width: 470px;
+    height: 44px;
+    left: 263px;
+    top: 164px;
+    
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+    
+
+}
+.presents { 
+  
+position: absolute;
+width: 160px;
+height: 41px;
+left: 307px;
+top: 208px;
+
+font-family: 'Holtwood One SC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+
+color: #D9D9D9;
+}
+.event_name { 
+
+    position: absolute;
+    width: 656px;
+    height: 315px;
+    left: 76px;
+    top: 331px;
+    
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 104px;
+    
+    color: #D9C82F;
+    
+}
+
+
+.time_h { 
+    position: absolute;
+    width: 94px;
+    height: 41px;
+    left: 76px;
+    top: 685px;
+    
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    
+    color: #D9C82F;
+	
+}
+
+.time { 
+
+  
+    position: absolute;
+    width: 364px;
+    height: 35px;
+    left: 188px;
+    top: 685px;
+    
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+}
+
+.date_h { 
+    position: absolute;
+width: 101px;
+height: 43px;
+left: 76px;
+top: 729px;
+
+font-family: 'Holtwood One SC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+
+color: #D9C82F;
+}
+.date { 
+    position: absolute;
+    width: 585px;
+    height: 32px;
+    left: 188px;
+    top: 729px;
+    
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+    
+}
+.venue_h { 
+    position: absolute;
+    width: 122px;
+    height: 39px;
+    left: 81px;
+    top: 870px;
+    
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    
+    color: #EAD51E;
+}
+.venue { 
+    position: absolute;
+width: 488px;
+height: 100px;
+left: 164px;
+top: 811px;
+
+font-family: 'Holtwood One SC';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 52px;
+
+color: #D9C82F;
+}
+.rectangle{
+    position: absolute;
+    width: 187px;
+    height: 44px;
+    left: 35px;
+    top: 878.5px;
+
+    background: #142A54;
+}
+
+.st_h{
+    position: absolute;
+    width: 334px;
+    height: 28px;
+    left: 178px;
+    top: 690px;
+    
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    
+    color: #B4BD48;
+    
+    text-shadow: 0px 0px 3.5px #B4BD48;
+}
+
+.st_c{
+    position: absolute;
+    width: 250px;
+    height: 79px;
+    left: 178px;
+    top: 728px;
+    
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #7ED957;
+    
+    text-shadow: 0px 0px 3.5px #7ED957;
+}
+
+.fac_h{
+    position: absolute;
+    width: 334px;
+    height: 27px;
+    left: 178px;
+    top: 538px;
+    
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    
+    color: rgba(180, 189, 72, 0.96);
+    
+    text-shadow: 0px 0px 3.5px #B4BD48;
+    
+}
+
+.fac_c{
+    position: absolute;
+    width: 266px;
+    height: 78px;
+    left: 178px;
+    top: 589px;
+    
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #6968A9;
+    
+    text-shadow: 0px 0px 3.5px #6968A9;
+}
+
+.register { 
+    position: absolute;
+    width: 187px;
+    height: 31px;
+    left: 320px;
+    top: 978px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+	
+}
+
+
+.qr{
+    
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 8px;
+    top: 1020px;
+    
+    background: #D9D9D9;
+}
+.link{
+    position: absolute;
+    width: 577px;
+    height: 53px;
+    left: 121px;
+    top: 1043px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+
+}
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

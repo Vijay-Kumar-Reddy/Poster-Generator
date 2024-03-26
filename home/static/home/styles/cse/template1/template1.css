@@ -1,0 +1,352 @@
+#content-container{
+    pointer-events: none;
+}
+
+.qr{
+    pointer-events:all;
+}
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+	position: absolute;
+	width: 732px;
+	height: 159px;
+	left: 28px;
+	top: 31px;
+}
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+	position: absolute;
+	width: 762px;
+	height: 141px;
+	left: 14px;
+	top: 10px;
+
+	font-family: 'Gemunu Libre', sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 39px;
+	text-align: center;
+	line-height: 70px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	text-decoration:overline;
+	color: #154047;
+	text-transform: uppercase;
+}
+.e3_371 { 
+	position: absolute;
+	width: 762px;
+	height: 40px;
+	left: 16px;
+	top: 222px;
+
+	/* font-family: 'Inter'; */
+	font-family: 'Teko', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23.3px;
+	line-height: 28px;
+	text-align: center;
+
+	color: #13515B;
+}
+.e3_372 { 
+	color:rgba(255, 255, 255, 1);
+	width:126px;
+	height:26px;
+	position:absolute;
+	left:329px;
+	top:285px;
+	/* font-family:Inter; */
+	font-family: 'Teko', sans-serif;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+}
+.e3_373 { 
+	color:#13515B;
+	width: 762px;
+	height: 105px;
+	left: 16px;
+	top: 322px;
+	position:absolute;
+	/* font-family:Inter; */
+	font-family: 'Teko', sans-serif;
+	text-align:center;
+	font-size:99px;
+	letter-spacing:0;
+	text-transform: uppercase;
+}
+.e3_374 { 
+	color:rgba(0, 0, 0, 1);
+	width:65px;
+	height:25px;
+	position:absolute;
+	left:154px;
+	top:526px;
+	/* font-family:Inter; */
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	font-size:15.300000190734863px;
+	letter-spacing:0;
+}
+.e3_376 { 
+	color:rgba(0, 0, 0, 1);
+	width:200px;
+	height:18px;
+	position:absolute;
+	left:213px;
+	top:526px;
+	/* font-family:Inter; */
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	text-align:left;
+	font-size:15.300000190734863px;
+	letter-spacing:0;
+}
+.e3_377 { 
+	color:rgba(0, 0, 0, 1);
+	width:65px;
+	height:25px;
+	position:absolute;
+	left:420px;
+	top:529px;
+	/* font-family:Inter; */
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	font-size:15.300000190734863px;
+	letter-spacing:0;
+}
+.e3_378 { 
+	color:rgba(0, 0, 0, 1);
+	width:200px;
+	height:18px;
+	position:absolute;
+	left:485px;
+	top:529px;
+	/* font-family:Inter; */
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	text-align:left;
+	font-size:15.3px;
+	text-transform: capitalize;
+	letter-spacing:0;
+}
+.e3_379 { 
+	color:rgba(255, 255, 255, 1);
+	width:163px;
+	height:24px;
+	position:absolute;
+	left:314px;
+	top:613px;
+	/* font-family:Inter; */
+	font-weight: bold;
+	font-family: 'Teko', sans-serif;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e3_380 { 
+	color:rgba(0, 0, 0, 1);
+	width:295px;
+	height:63px;
+	position:absolute;
+	left:248px;
+	top:665px;
+	font-family:Inter;
+	text-align:center;
+	font-size:17.299999237060547px;
+	letter-spacing:0;
+}
+.e3_381 { 
+	color:rgba(255, 255, 255, 1);
+	width:192px;
+	height:27px;
+	position:absolute;
+	left:44px;
+	top:718px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e3_382 { 
+	color:rgba(19.0000007674098, 81.00000277161598, 91.00000217556953, 1);
+	width:224px;
+	height:87px;
+	position:absolute;
+	left:28px;
+	top:745px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e3_383 { 
+	color:rgba(255, 255, 255, 1);
+	width:192px;
+	height:27px;
+	position:absolute;
+	left:534px;
+	top:718px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e3_384 { 
+	color:rgba(19.0000007674098, 81.00000277161598, 91.00000217556953, 1);
+	width:224px;
+	height:87px;
+	position:absolute;
+	left:518px;
+	top:745px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e3_385 { 
+	color:rgba(255, 255, 255, 1);
+	width:224px;
+	height:31px;
+	position:absolute;
+	left:526px;
+	top:864px;
+	font-family:Inter;
+	text-align:center;
+	font-size:22px;
+	letter-spacing:0;
+}
+.e3_387 { 
+	position: absolute;
+	width: 45px;
+	height: 16px;
+	left: 481px;
+	top: 909px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11.2px;
+	line-height: 14px;
+	text-align: center;
+
+	color: rgba(0, 0, 0, 1);
+
+	/* color:rgba(0, 0, 0, 1);
+	width:45px;
+	height:16px;
+	position:absolute;
+	left:503px;
+	top:908px;
+	font-family:Inter;
+	text-align:center;
+	font-size:12.5;
+	letter-spacing:0; */
+}
+.e3_388 { 
+	position: absolute;
+	width: 234px;
+	height: 34px;
+	left: 548px;
+	top: 909px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11.2px;
+	line-height: 14px;
+
+	color: rgba(0, 0, 0, 1);
+}
+.e3_389 { 
+	width:119px;
+	height:119px;
+	position:absolute;
+	left:578px;
+	top:950px;
+}
+
+.qr{
+	position: absolute;
+	width: 119px;
+	height: 119px;
+	left: 577px;
+	top: 950px;
+}
+
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

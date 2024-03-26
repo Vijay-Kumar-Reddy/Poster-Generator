@@ -1,0 +1,218 @@
+{% load static %}
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster_Generator</title>
+</head>
+<body>
+    <div>
+        <a href="template1">
+            <img src="{% static 'home/images/template1.png' %}" alt="template1" width="150px" height="200px">
+        </a>
+        <a href="template2">
+            <img src="{% static 'home/images/template2.png' %}" alt="template1" width="150px" height="200px">
+        </a>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster_Generator</title>
+    <link rel="stylesheet" href="{% static 'home/styles/choose.css'%}">
+</head>
+<body>
+    <div class="logo">
+        POSTER GENERATOR
+    </div>
+    
+    <div class="images">
+        <div class="title">
+            COMPUTER SCIENCE
+            <hr>
+        </div>
+        <div class="template">
+            <a href="cse-template1">
+                <img src="{% static 'home/images/cse/template1/template1.png' %}" alt="">
+            </a>
+            <a href="cse-template2">
+                <img src="{% static 'home/images/cse/template2/template2.png' %}" alt="">
+            </a>
+
+            <a href="cse-template3">
+                <img src="{% static 'home/images/cse/template3/template.png' %}" alt="">
+            </a>
+            <a href="template4">`
+                <img src="{% static 'home/images/cse/template4/template4.png' %}" alt="">
+            </a>
+            <a href="cse-template5">
+                <img src="{% static 'home/images/cse/template5/template5.png' %}" alt="">
+            </a>
+            <a href="cse-template6">
+                <img src="{% static 'home/images/cse/template6/template6.png' %}" alt="">
+            </a>
+            <a href="cse-template7">
+                <img src="{% static 'home/images/cse/template7/template7.png' %}" alt="">
+            </a>
+            <a href="cse-template8">
+                <img src="{% static 'home/images/cse/template8/template8.png' %}" alt="">
+            </a>
+            <a href="cse-template9">
+                <img src="{% static 'home/images/cse/template9/template9.png' %}" alt="">
+            </a>
+            <a href="cse-template10">
+                <img src="{% static 'home/images/cse/template10/template10.png' %}" alt="">
+            </a>
+        </div>
+        <br><br>
+        <!-- AR VR -->
+        <div class="title">
+            AUGMENTED REALITY AN VIRTUAL REALITY
+            <hr>
+        </div>
+        <div class="template">
+            <a href="arvr-template1">
+                <img src="{% static 'home/images/arvr/template1/template1.png' %}" alt="">
+            </a>
+            <a href="arvr-template2">
+                <img src="{% static 'home/images/arvr/template2/template2.png' %}" alt="">
+            </a>
+            <a href="arvr-template3">
+                <img src="{% static 'home/images/arvr/template3/template3.png' %}" alt="">
+            </a>
+            <a href="arvr-template4">
+                <img src="{% static 'home/images/arvr/template4/template4.png' %}" alt="">
+            </a>
+            <a href="arvr-template5">
+                <img src="{% static 'home/images/arvr/template5/template5.png' %}" alt="">
+            </a>
+        </div>
+        <br><br>
+        <!-- ECE -->
+        <div class="title">
+            ELECTRONICS ENGINEERING
+            <hr>
+        </div>
+        <div class="template">
+            <a href="ece-template1">
+                <img src="{% static 'home/images/ece/template1/template1.png' %}" alt="">
+            </a>
+            <a href="ece-template2">
+                <img src="{% static 'home/images/ece/template2/template2.png' %}" alt="">
+            </a>
+            <a href="ece-template3">
+                <img src="{% static 'home/images/ece/template3/template3.png' %}" alt="">
+            </a>
+            <a href="ece-template4">
+                <img src="{% static 'home/images/ece/template4/template4.png' %}" alt="">
+            </a>
+            <a href="ece-template5">
+                <img src="{% static 'home/images/ece/template5/template5.png' %}" alt="">
+            </a>
+        </div>
+        <!-- Ai -->
+        <br><br>
+        <div class="title">
+            ARTIFICIAL INTELLIGENCE
+            <hr>
+        </div>
+        <div class="template">
+            <a href="ai-template1">
+                <img src="{% static 'home/images/ai/template1/template1.png' %}" alt="">
+            </a>
+            <a href="ai-template2">
+                <img src="{% static 'home/images/ai/template2/template2.png' %}" alt="">
+            </a>
+
+            <a href="ai-template3">
+                <img src="{% static 'home/images/ai/template3/template3.png' %}" alt="">
+            </a>
+            <a href="ai-template4">
+                <img src="{% static 'home/images/ai/template4/template4.png' %}" alt="">
+            </a>
+            <a href="ai-template5">
+                <img src="{% static 'home/images/ai/template5/template5.png' %}" alt="">
+            </a>
+        </div>
+        <br><br>
+
+        <div class="title">
+            CYBER SECURITY
+            <hr>
+        </div>
+        <div class="template">
+            <a href="cs-template1">
+                <img src="{% static 'home/images/cs/template1/template1.png' %}" alt="">
+            </a>
+            <a href="cs-template2">
+                <img src="{% static 'home/images/cs/template2/template2.png' %}" alt="">
+            </a>
+
+            <a href="cs-template3">
+                <img src="{% static 'home/images/cs/template3/template3.png' %}" alt="">
+            </a>
+            <a href="cs-template4">
+                <img src="{% static 'home/images/cs/template4/template4.png' %}" alt="">
+            </a>
+            <a href="cs-template5">
+                <img src="{% static 'home/images/cs/template5/template5.png' %}" alt="">
+            </a>
+        </div>
+        <br><br>
+
+        <div class="title">
+            INTERNET OF THINGS
+            <hr>
+        </div>
+        <div class="template">
+            <a href="iot-template1">
+                <img src="{% static 'home/images/iot/template1/template1.png' %}" alt="">
+            </a>
+            <a href="iot-template2">
+                <img src="{% static 'home/images/iot/template2/template2.png' %}" alt="">
+            </a>
+
+            <a href="iot-template3">
+                <img src="{% static 'home/images/iot/template3/template3.png' %}" alt="">
+            </a>
+            <a href="iot-template4">
+                <img src="{% static 'home/images/iot/template4/template4.png' %}" alt="">
+            </a>
+            <a href="iot-template5">
+                <img src="{% static 'home/images/iot/template5/template5.png' %}" alt="">
+            </a>
+        </div>
+        <br><br>
+        
+        <div class="title">
+            CIVIL
+            <hr>
+        </div>
+        <div class="template">
+            <a href="civil-template1">
+                <img src="{% static 'home/images/civil/template1/template1.png' %}" alt="">
+            </a>
+            <a href="civil-template2">
+                <img src="{% static 'home/images/civil/template2/template2.png' %}" alt="">
+            </a>
+
+            <a href="civil-template3">
+                <img src="{% static 'home/images/civil/template3/template3.png' %}" alt="">
+            </a>
+            <a href="civil-template4">
+                <img src="{% static 'home/images/civil/template4/template4.png' %}" alt="">
+            </a>
+            <a href="civil-template5">
+                <img src="{% static 'home/images/civil/template5/template5.png' %}" alt="">
+            </a>
+        </div>
+        <br><br>
+    </div>
+</body>
+</html>

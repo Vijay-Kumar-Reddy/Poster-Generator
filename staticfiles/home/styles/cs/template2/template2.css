@@ -1,0 +1,382 @@
+#content-container{
+    pointer-events: none;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+    position: absolute;
+    width: 463px;
+    height: 99px;
+    left: 180px;
+    top: 0px;
+    
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+    position: absolute;
+    width: 748px;
+    height: 151px;
+    left: 20px;
+    top: 33px;
+    
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #1EA3DC;
+}
+.O_by { 
+    position: absolute;
+width: 471px;
+height: 34px;
+left: 251px;
+top: 127px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.presents { 
+    position: absolute;
+    width: 134px;
+    height: 52px;
+    left: 344px;
+    top: 161px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+}
+.event_name { 
+    position: absolute;
+width: 716px;
+height: 105px;
+left: 42px;
+top: 321px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 3.5px #FFFFFF;
+    
+}
+
+
+.time_h { 
+    position: absolute;
+    width: 85px;
+    height: 39px;
+    left: 242px;
+    top: 476px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+	
+}
+
+.time { 
+
+    position: absolute;
+    width: 357px;
+    height: 49px;
+    left: 352px;
+    top: 478px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.date_h { 
+    position: absolute;
+    width: 59px;
+    height: 36px;
+    left: 161px;
+    top: 375px;
+    
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #7ED957;
+    
+    text-shadow: 0px 0px 3.5px #7ED957;
+}
+.date { 
+    position: absolute;
+    width: 417px;
+    height: 52px;
+    left: 292px;
+    top: 944px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: capitalize;
+    
+    color: #9C69EA;
+    
+    text-shadow: 0px 0px 3.5px #9C69EA;
+    
+}
+.venue_h { 
+    position: absolute;
+    width: 92px;
+    height: 38px;
+    left: 240px;
+    top: 426px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+	
+}
+.venue { 
+    position: absolute;
+width: 406px;
+height: 38px;
+left: 352px;
+top: 426px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.rectangle{
+    position: absolute;
+    width: 187px;
+    height: 44px;
+    left: 35px;
+    top: 878.5px;
+
+    background: #142A54;
+}
+
+.st_h{
+    position: absolute;
+    width: 466px;
+    height: 29px;
+    left: 94px;
+    top: 701px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+}
+
+.st_c{
+    position: absolute;
+    width: 250px;
+    height: 119px;
+    left: 98px;
+    top: 742px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
+.fac_h{
+    position: absolute;
+width: 281px;
+height: 30px;
+left: 103px;
+top: 589px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+    
+}
+
+.fac_c{
+    position: absolute;
+    width: 558px;
+    height: 55px;
+    left: 101px;
+    top: 622px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
+.register { 
+    position: absolute;
+    width: 193px;
+    height: 32px;
+    left: 311px;
+    top: 1019px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #300F80;
+	
+}
+
+
+.qr{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 673px;
+    top: 1002px;
+    
+    background: #D9D9D9;
+}
+.link{
+    position: absolute;
+    width: 546px;
+    height: 33px;
+    left: 212px;
+    top: 1063px;
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #300F80;
+}
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

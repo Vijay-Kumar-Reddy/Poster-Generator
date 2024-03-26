@@ -1,0 +1,116 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster</title>
+    <link rel="stylesheet" href="{%static 'home/styles/form.css'%}">
+    <style>
+      input[type=submit]
+      {
+        background-color:#03e9f4;
+        border: none;
+        outline: none;
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        color:#243b55;
+        font-size: 17px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        /* margin-top: 40px; */
+        margin: 0px;
+        letter-spacing: 5px ;
+        border-radius: 5px;
+        pointer-events: all;
+        /* cursor:pointer; */
+
+      }
+
+
+      .inactive{
+        pointer-events: none;
+        cursor: default;
+      }
+      @media (max-width:700px) {
+        .form-box {
+          position: absolute;
+          top: 550px;
+          left: 50%;
+          width: 75%;
+          padding: 40px;
+          transform: translate(-50%, -50%);
+          background: rgba(0,0,0,.5);
+          box-sizing: border-box;
+          box-shadow: 0 20px 25px rgba(0,0,0,.6);
+          border-radius: 10px;
+        
+        }
+        .heading{
+          color: black;
+          padding: 20px;
+        }
+        
+      }
+    </style>
+</head>
+<body>
+      <div class="heading">
+        POSTER GENERATOR
+      </div>
+      <div class="form-box" style="top:450px">
+        <h2>Poster Details</h2>
+        <form action="" method="post">
+          {% csrf_token %}
+          <div class="user-box">
+            <input type="text" name="U_name" required="" autofocus onfocus='placeholder="Sathyabama University"'' maxlength="60">
+            <label>University Name</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="O_by" required=""  onfocus='placeholder="Department of Computer Science and Engineering"' maxlength="60">
+            <label>Organized by</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="E_name" required="" maxlength="22">
+            <label>Event Name</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="Time" required="" onfocus="placeholder='9:00AM to 2:00PM'" maxlength="22">
+            <label>Time</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="Date" required="" onfocus="placeholder='November 27-29'" maxlength="20">
+            <label>Date</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="Venue" required="" >
+            <label>Venue</label>
+          </div>
+          <div class="user-box" style="display: none;">
+            <input type="text" name="Faculty" value=" ">
+            <label>Faculty Co-ordinates</label>
+          </div>
+          <div class="user-box" style="display: none;">
+            <input type="text" name="Student" value=" ">
+            <label>Student Co-ordinates</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="Link" required="">
+            <label>Registration Link</label>
+          </div>
+
+          <a href="" class="inactive">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <input type="submit" value="Generate" style="font-size:13px ;">
+          </a>
+        </form>
+      </div>
+</body>
+</html>

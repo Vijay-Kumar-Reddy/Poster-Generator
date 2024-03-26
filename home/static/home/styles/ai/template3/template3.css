@@ -1,0 +1,401 @@
+#content-container{
+    pointer-events: none;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+    position: absolute;
+    left: 31.61%;
+    right: -1.54%;
+    top: 4.88%;
+    bottom: 83.99%;
+    
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+    position: absolute;
+    width: 748px;
+    height: 151px;
+    left: 20px;
+    top: 33px;
+    
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+     text-transform: uppercase;
+    
+    color: #1EA3DC;
+}
+.O_by { 
+    
+position: absolute;
+left: 29.35%;
+right: 3.9%;
+top: 17.83%;
+bottom: 78.62%;
+
+font-family: 'ZCOOL QingKe HuangYou';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+display: flex;
+align-items: flex-end;
+text-transform: uppercase;
+
+color: #98D454;
+
+text-shadow: 0px 0px 3.5px #98D454;
+}
+.presents { 
+    position: absolute;
+left: 40.3%;
+right: 33.38%;
+top: 21.38%;
+bottom: 75.07%;
+
+font-family: 'ZCOOL QingKe HuangYou';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+display: flex;
+align-items: flex-end;
+
+color: #98D454;
+
+text-shadow: 0px 0px 3.5px #98D454;
+}
+.event_name { 
+    position: absolute;
+width: 493px;
+height: 172px;
+left: calc(50% - 493px/2 + 19.5px);
+top: 281px;
+
+font-family: 'Moul';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 108px;
+text-transform: uppercase;
+
+color: #3AADED;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(96, 106, 140, 0.25);
+    
+}
+
+
+.time_h { 
+    position: absolute;
+    left: 36.78%;
+    right: 53.27%;
+    top: 47.2%;
+    bottom: 48.09%;
+    
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    
+    color: #48FCFA;
+    
+    
+}
+
+.time { 
+
+
+    position: absolute;
+    width: 377px;
+    height: 53px;
+    left: 409px;
+    top: 530px;
+    
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    
+    color: #48FCFA;
+    
+    
+}
+
+.date_h { 
+    position: absolute;
+    left: 36.65%;
+    right: 52.02%;
+    top: 42.95%;
+    bottom: 54.04%;
+    
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    
+    color: #48FCFA;
+}
+.date { 
+    position: absolute;
+    width: 309px;
+    height: 46px;
+    left: 403px;
+    top: 484px;
+    
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: capitalize;
+    
+    color: #48FCFA;
+    
+}
+.venue_h { 
+    position: absolute;
+width: 117px;
+height: 45px;
+left: 107px;
+top: 696px;
+
+font-family: 'ZCOOL QingKe HuangYou';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+
+color: #48FCFA;
+	
+}
+.venue { 
+    position: absolute;
+width: 518px;
+height: 61px;
+left: 107px;
+top: 741px;
+
+font-family: 'ZCOOL QingKe HuangYou';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+text-transform: capitalize;
+
+color: #43B1F8;
+
+}
+.rectangle{
+    position: absolute;
+    width: 187px;
+    height: 44px;
+    left: 35px;
+    top: 878.5px;
+
+    background: #142A54;
+}
+
+.st_h{
+    position: absolute;
+left: 13.35%;
+right: 52.02%;
+top: 74%;
+bottom: 22.72%;
+
+font-family: 'ZCOOL QingKe HuangYou';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+display: flex;
+align-items: flex-end;
+
+color: #98D454;
+    
+}
+
+.st_c{
+    position: absolute;
+width: 290px;
+height: 66px;
+left: 107px;
+top: 870px;
+
+font-family: 'ZCOOL QingKe HuangYou';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+display: flex;
+align-items: flex-end;
+
+color: #98D454;
+
+}
+
+.fac_h{
+    position: absolute;
+    left: 13.73%;
+    right: 56.05%;
+    top: 85.8%;
+    bottom: 12.07%;
+    
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #98D454;
+    
+    
+}
+
+.fac_c{
+    position: absolute;
+    left: 13.73%;
+    right: 57.81%;
+    top: 87.93%;
+    bottom: 8.43%;
+    
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #98D454;
+
+}
+
+.register { 
+    position: absolute;
+left: 43.95%;
+right: 30.6%;
+top: 92.72%;
+bottom: 4.88%;
+
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+
+color: #48FCFA;
+    
+	
+}
+
+
+.qr{
+    
+    position: absolute;
+    left: 86.52%;
+    right: 1.01%;
+    top: 89.88%;
+    bottom: 1.33%;
+    
+    background: #D9D9D9;
+}
+.link{
+    
+    position: absolute;
+    left: 18.26%;
+    right: 14.36%;
+    top: 96.1%;
+    bottom: 1.33%;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+}
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

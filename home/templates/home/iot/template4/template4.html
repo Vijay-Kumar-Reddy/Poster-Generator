@@ -1,0 +1,82 @@
+
+<!-- {% load static %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poster Generator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo&family=Audiowide&family=Bebas+Neue&family=Cabin&family=Calistoga&family=Finger+Paint&family=Gabriela&family=Holtwood+One+SC&family=Ibarra+Real+Nova&family=Inika&family=Inria+Sans&family=Inter&family=Irish+Grover&family=Jacques+Francois&family=Jaldi&family=K2D&family=League+Gothic&family=M+PLUS+1&family=Macondo&family=Merriweather&family=Montserrat&family=Moul&family=MuseoModerno&family=Niconne&family=Odibee+Sans&family=Open+Sans&family=Pacifico&family=Plaster&family=Poppins&family=Rasa&family=Rationale&family=Roboto&family=Saira&family=Tomorrow&family=Ubuntu&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static 'home/styles/iot/template4/template4.css'%}">
+<style>
+    body {background: #243b55; }
+</style>
+
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<script type="text/javascript">
+
+    function downloadimage() {
+        
+        var container = document.getElementById("poster");; // full page
+        html2canvas(container, { allowTaint: true }).then(function (canvas) {
+
+            var link = document.createElement("a");
+            document.body.appendChild(link);
+            link.download = "poster.png";
+            link.href = canvas.toDataURL();
+            link.target = '_blank';
+            link.click();
+        });
+    }
+
+</script>
+
+</head>
+<body>
+    <div id="content-container" >
+        <div class=e3_3 id="poster">
+        <div  class="e3_2">
+            <img src="{% static 'home/images/iot/template4/template4_b.png'%}" alt="background">
+        </div>
+         {% if key == "clg" %}
+          <img src="{% static 'home/images/logo.svg'%}" alt="logo" id="logo">
+        {% else %}
+          <h1 class="University">{{U_name}}</h1>
+        {% endif %}
+      <div class="O_by">{{O_by}}</div>
+        <div class="presents">Present</div>
+         <div  class="event_name"><span>{{E_name}}</span></div>
+        <div  class="time_h">TIME</div>
+         <div  class="time">{{Time}}</div>
+        <!-- <div class="date_h">DATE</div> -->
+         <div  class="date">{{Date}}</div>
+        <!-- <div  class="venue_h">VENUE</div> -->
+         <div  class="venue">{{Venue}}</div>
+        <!-- <div  class="st_h">STUDENT CO-ORDINATES</div> -->
+        <!-- <div  class="st_c">{{Student}}</div> -->
+        <!-- <div  class="st_c">Vijay, Harish, Sunanad, nithin, Tharun</div>
+        <div  class="fac_h">FACULTY CO-ORDINATES</div> -->
+        <!-- <div  class="fac_c">{{Faculty}}</div> -->
+        <!-- <div  class="fac_c">Vijay, Harish, Sunanad, nithin, Tharun</div> -->
+        <div  class="register">REGISTER NOW</div>
+        <!-- <div  class="link_h">LINK: </div> -->
+        <div  class="link">{{Link}}</div>
+        <div class="qr">
+              <a href="{{Link}}" target="_blank">
+                <img src="data:image/png;base64,{{ image }}" style="width:99px ;height:99px;" alt="Qrcode">
+            </a>
+        </div>
+        </div>
+    </div>
+    <div class="png">
+        <button onclick="downloadimage()" id="png_button">Download PNG</button>
+        <button onclick="window.print()" id="pdf_button">Download PDF</button>
+    </div>
+</body>
+</html>

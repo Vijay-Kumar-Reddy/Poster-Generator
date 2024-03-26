@@ -1,0 +1,384 @@
+#content-container{
+    pointer-events: none;
+}
+
+
+.png{
+    position:relative;
+    text-align: center;
+    align-items: center;
+}
+
+#png_button,#pdf_button {
+    margin-top: 20px;
+    background-color:#03e9f4;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: hidden;
+    text-rendering: geometricPrecision;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#png_button:hover, #pdf_button:hover{
+    text-shadow: 5px 5px 10px #545454;
+    color: #545454;
+    cursor: pointer;
+}
+
+
+body { 
+	margin: 30px; 
+	padding: 0px; 
+	font-family:"Arial"; 
+	overflow-x:hidden; 
+}
+
+#content-container { 
+	display: block; 
+	position: relative; 
+	width: 794px; width: 794px; 
+	height: 1123px; 
+	overflow: hidden; 
+	display: block;  
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+#logo{
+  
+position: absolute;
+width: 624px;
+height: 150px;
+left: 82px;
+top: 11px;
+    
+}
+
+.e3_3 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:794px;
+	height:1123px;
+	position:absolute;
+	align-items: center;
+}
+.e3_2 { 
+	width:794px;
+	height:1123px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/* background-image:url(images/template1_image_1.png); */
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.University{
+    position: absolute;
+    width: 748px;
+    height: 151px;
+    left: 20px;
+    top: 33px;
+    
+    font-family: 'Audiowide', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #1EA3DC;
+}
+.O_by { 
+    position: absolute;
+    width: 524px;
+    height: 43px;
+    left: 252px;
+    top: 181px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    
+    color: #045174;
+
+}
+.presents { 
+
+
+position: absolute;
+width: 160px;
+height: 53px;
+left: 317px;
+top: 224px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+
+color: #045174;
+}
+.event_name { 
+    position: absolute;
+    width: 712px;
+    height: 304px;
+    left: 41px;
+    top: 270px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    
+    color: #001F3D;
+    
+}
+
+
+.time_h { 
+    position: absolute;
+width: 76px;
+height: 52px;
+left: 41px;
+top: 726px;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #045174;
+	
+}
+
+.time { 
+
+    position: absolute;
+    width: 330px;
+    height: 33px;
+    left: 127px;
+    top: 726px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #045174;
+    
+}
+
+.date_h { 
+    position: absolute;
+    width: 76px;
+    height: 56px;
+    left: 41px;
+    top: 798px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #045174;
+}
+.date { 
+    position: absolute;
+    width: 330px;
+    height: 54px;
+    left: 127px;
+    top: 795px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #045174;
+    
+}
+.venue_h { 
+    position: absolute;
+    width: 86px;
+    height: 54px;
+    left: 41px;
+    top: 612px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #045174;
+	
+}
+.venue { 
+    position: absolute;
+width: 487px;
+height: 40px;
+left: 41px;
+top: 666px;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #001F3D;
+}
+.rectangle{
+    position: absolute;
+    width: 187px;
+    height: 44px;
+    left: 35px;
+    top: 878.5px;
+
+    background: #142A54;
+}
+
+.st_h{
+    position: absolute;
+    width: 213px;
+    height: 21px;
+    left: 576px;
+    top: 588px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #DEEF79;
+    
+
+    
+}
+
+.st_c{
+    position: absolute;
+    width: 191px;
+    height: 59px;
+    left: 603px;
+    top: 623px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #E87A00;
+    
+    
+}
+
+.fac_h{
+    position: absolute;
+    width: 232px;
+    height: 20px;
+    left: 562px;
+    top: 679px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #DEEF79;
+    
+}
+
+.fac_c{
+    position: absolute;
+width: 178px;
+height: 146px;
+left: 603px;
+top: 725px;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #E87A00;
+
+}
+
+.register { 
+    position: absolute;
+width: 111px;
+height: 24px;
+left: 627px;
+top: 957px;
+
+font-family: 'League Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #E87A00;
+    
+	
+}
+
+
+.qr{
+    
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 8px;
+    top: 1012px;
+    
+    background: #D9D9D9;
+}
+.link{
+    position: absolute;
+    width: 438px;
+    height: 58px;
+    left: 335px;
+    top: 1055px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+
+@media print {
+    body{
+        margin: 0px;
+    }
+    .png{
+        display:none;
+    }
+    
+}
+  

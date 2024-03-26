@@ -1,0 +1,73 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poster Generator</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Source+Code+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static 'home/styles/cse/template10/template10.css'%}">
+<style>
+    body {background: #243b55; }
+</style>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<script type="text/javascript">
+
+    function downloadimage() {
+        
+        var container = document.getElementById("poster");; // full page
+        html2canvas(container, { allowTaint: true }).then(function (canvas) {
+
+            var link = document.createElement("a");
+            document.body.appendChild(link);
+            link.download = "poster.png";
+            link.href = canvas.toDataURL();
+            link.target = '_blank';
+            link.click();
+        });
+    }
+
+</script>
+</head>
+<body>
+    <div id="content-container" >
+        <div class=e3_3 id="poster">
+        <div  class="e3_2">
+            <img src="{% static 'home/images/cse/template10/template10_b.png'%}" alt="background">
+        </div>
+        {% if key == "clg" %}
+          <img src="{% static 'home/images/logo.svg'%}" alt="logo" id="logo">
+        {% else %}
+            <div class="University">{{U_name}}</div>
+        {% endif %}
+        <div class="O_by">{{O_by}} </div>
+        <div class="presents">PRESENTS</div>
+        <div  class="event_name">{{E_name}}</div>
+        <div  class="time_h">Time</div>
+        <div  class="time">{{Time}}</div>
+        <div  class="date">{{Date}}</div>
+        <div  class="venue_h">VENUE</div>
+        <div  class="venue">{{Venue}}</div>
+        <div  class="register">REGISTER NOW</div>
+        <div class="qr">
+              <a href="{{Link}}" target="_blank">
+                <img src="data:image/png;base64,{{ image }}" style="width:95px ;height:95px;" alt="Qrcode">
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <div class="png">
+        <button onclick="downloadimage()" id="png_button">Download PNG</button>
+        <button onclick="window.print()" id="pdf_button">Download PDF</button>
+    </div>
+</body>
+</html>
